@@ -4,3 +4,5 @@ Using csv files of pairings and priorities tests to see if there are rogue pairs
 Gale-Shapley pairs priorities in boy-favored and girl-favored scenarios
 
 Halls finds a pairing so that every boy is matched to a girl but does not regard rogue pairingss
+
+Outputs results to .txt files except for Hall's as the process is too long.
