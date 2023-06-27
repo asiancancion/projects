@@ -6,3 +6,5 @@ Gale-Shapley pairs priorities in boy-favored and girl-favored scenarios
 Halls finds a pairing so that every boy is matched to a girl but does not regard rogue pairingss
 
 Outputs results to .txt files except for Hall's as the process is too long.
+
+*Part of Discrete Math Course (Math 340). Created pair, pair2, find_rogues, and test_halls functions. The other helper functions were provided via instructor.*
