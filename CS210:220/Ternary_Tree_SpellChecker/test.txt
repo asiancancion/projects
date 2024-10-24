@@ -1,0 +1,7 @@
+CAB
+CAD
+CAR
+CAT
+dog
+cat
+CATFISH
