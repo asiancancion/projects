@@ -21,3 +21,42 @@ void colorsetup(){
     wbkgd(stdscr, COLOR_PAIR(BLUE_WHITE));
     attron(COLOR_PAIR(RED_WHITE));
 }
+```
+### `drawC(int x, int y)`
+
+This function draws the letter "C" at the specified x and y coordinates. The letter "C" is created using a series of characters (~ and |) to represent the shape of the letter.
+```c
+void drawC(int x, int y){
+    move(x, y); 
+    printw("~~~~~~~~~~~~~~~~~~~");  // Top part of 'C'
+    for (int i = 1; i <= 10; i++) {
+        move(x + i, y);
+        printw("~");  // Left side of 'C'
+    }
+    move(x + 11, y);
+    printw("~~~~~~~~~~~~~~~~~~~");  // Bottom part of 'C'
+}
+```
+
+### `drawS(int x, int y)`
+This function draws the letter "S" at the specified x and y coordinates. Similar to drawC(), it uses characters to form the shape of the letter "S" and prints each part on the screen accordingly.
+
+```c
+void drawS(int x, int y){
+    move(x, y);
+    printw("~~~~~~~~~~~~~~~~~~~");  // Top part of 'S'
+    for (int i = 1; i <= 5; i++) {
+        move(x + i, y);
+        printw("~");  // Upper-left curve of 'S'
+    }
+    move(x + 6, y);
+    printw("~~~~~~~~~~~~~~~~~~~");  // Middle of 'S'
+    y += 18;
+    for (int i = 1; i <= 5; i++) {
+        move(x + 6 + i, y);
+        printw("~");  // Lower-right curve of 'S'
+    }
+    move(x + 11, y - 18);
+    printw("~~~~~~~~~~~~~~~~~~~");  // Bottom part of 'S'
+}
+```
