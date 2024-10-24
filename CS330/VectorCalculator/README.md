@@ -71,5 +71,5 @@ This method parses the user input to determine the operation. It handles the fol
 
 
 ## Error Handling
-If the user enters an invalid expression or syntax, the program will catch the exception and print an error message. Example:
+If the user enters an invalid expression or syntax, the program will catch the exception and print an error message.
 
