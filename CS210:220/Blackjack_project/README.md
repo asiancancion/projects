@@ -160,15 +160,15 @@ void playGame() {
 }
 ```
 
-##How to Compile and Run
-###Compilation
+## How to Compile and Run
+### Compilation
 Use the following command to compile the program:
 
 ```c
 gcc -o blackjack pex2functs.c -lm
 ```
 
-###Running the Game
+### Running the Game
 
 Once compiled, you can run the game with:
 
