@@ -1,0 +1,4 @@
+Used this chatGPT to debug seg fault on seek_and_remove() function: https://chat.openai.com/share/016acd9c-f240-4eda-8b3f-63a327087043
+
+
+C2C Carlisle explained the high level concepts of how the page faults increment to help me understand the functionality needed in main. He also explained what print formats to use so that it would match the expected output provided by the instructors.
