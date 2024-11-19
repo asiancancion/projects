@@ -1,0 +1,37 @@
+ emp_num | emp_lname  | emp_fname | totalinvoices 
+---------+------------+-----------+---------------
+   83565 | ABERNATHY  | LOURDES   |      19158.54
+   83792 | ANDERSEN   | WALLY     |      20627.47
+   83705 | BARR       | JOSE      |      22098.88
+   84049 | BRANDON    | LANE      |      20683.06
+   83936 | BRAY       | BRADFORD  |      21139.94
+   84248 | CASTLE     | DANICA    |      17700.42
+   84420 | CAUDILL    | DOUG      |      11308.21
+   83993 | CORTES     | SANG      |      17436.88
+   84021 | DICKINSON  | JAROD     |      20437.35
+   84163 | EASLEY     | GWEN      |      24813.26
+   83537 | ENGLISH    | CLEO      |      18883.13
+   84078 | ERWIN      | DIEGO     |      23839.85
+   83763 | FELTON     | JAIME     |      18648.21
+   84134 | GARLAND    | ROSALIE   |      18886.61
+   84334 | GOLDMAN    | LINNIE    |      24300.88
+   83621 | GONZALEZ   | FONDA     |      20290.10
+   83820 | HOBSON     | TOM       |      20573.26
+   84191 | HOLBROOK   | ROXANA    |      21528.85
+   83649 | JACOB      | DELMA     |      19715.02
+   83677 | MANNING    | HERB      |      26019.30
+   83878 | MARIN      | PAT       |      22615.85
+   84306 | MEDINA     | ROWENA    |      17835.61
+   83850 | MILES      | RUSTY     |      21801.68
+   83593 | NASH       | ROSANNE   |      21961.32
+   83734 | ROCHA      | INEZ      |      17977.03
+   84106 | SAMUEL     | FELICE    |      20622.24
+   83906 | SIMONS     | DELLA     |      22062.35
+   83509 | STOVER     | FRANKLYN  |      10444.15
+   83964 | SWEENEY    | HAILEY    |      21494.50
+   84364 | VARNER     | LESLIE    |      20964.99
+   84276 | VILLARREAL | ROSALIND  |      24426.45
+   84392 | WHALEY     | ALEJANDRA |      21532.07
+   84219 | WILKINSON  | THURMAN   |      21858.14
+(33 rows)
+

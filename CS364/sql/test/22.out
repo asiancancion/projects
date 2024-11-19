@@ -1,0 +1,17 @@
+ cust_code | cust_fname | cust_lname 
+-----------+------------+------------
+       684 | WENDI      | BEAN
+       340 | MARCIA     | BURRIS
+       211 | GERALD     | CAUDILL
+       292 | VALARIE    | DILLARD
+       293 | CLAIR      | ERICKSON
+       416 | TATIANA    | HOWE
+       996 | EZRA       | LYON
+        98 | VALENTIN   | MARINO
+       121 | PETER      | SMALL
+      1157 | LUCIO      | STALEY
+       617 | CESAR      | TALLEY
+       457 | SHAUNA     | WERNER
+       131 | SAL        | WHALEY
+(13 rows)
+

@@ -1,0 +1,4 @@
+ emp_num | emp_lname | emp_fname | emp_initial | emp_hiredate | job_code 
+---------+-----------+-----------+-------------+--------------+----------
+(0 rows)
+

@@ -1,0 +1,5 @@
+ brand_name | brand_type | prod_sku |               prod_descript                | prod_price 
+------------+------------+----------+--------------------------------------------+------------
+ LONG HAUL  | CONTRACTOR | 1964-OUT | Fire Resistant Top Coat, for Interior Wood |      78.49
+(1 row)
+

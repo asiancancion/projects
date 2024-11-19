@@ -1,0 +1,5 @@
+ brand_id | brand_name | brand_type | avgprice 
+----------+------------+------------+----------
+       29 | BUSTERS    | VALUE      |    22.59
+(1 row)
+

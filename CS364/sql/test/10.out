@@ -1,0 +1,29 @@
+ cust_fname | cust_lname |        cust_street        |   cust_city   | cust_state | cust_zip 
+------------+------------+---------------------------+---------------+------------+----------
+ LUPE       | SANTANA    | 1292 WEST 70TH PLACE      | Phenix City   | AL         | 36867
+ HOLLIS     | STILES     | 1493 DOLLY MADISON CIRCLE | Snow Hill     | AL         | 36778
+ LISETTE    | WHITTAKER  | 339 NORTHPARK DRIVE       | Montgomery    | AL         | 36197
+ DEANDRE    | JAMISON    | 1571 HANES STREET         | Miami         | FL         | 33169
+ CATHLEEN   | WHITMAN    | 1712 NORTHFIELD DRIVE     | Marshallville | GA         | 31057
+ SHERIE     | STOVER     | 640 MOUNTAIN VIEW DRIVE   | Parksville    | KY         | 40464
+ BRYCE      | HOGAN      | 1860 IMLACH DRIVE         | Newbury       | MA         | 01951
+ SHELBY     | SALAS      | 486 SUSITNA VIEW COURT    | North Tisbury | MA         | 02568
+ JERMAINE   | HANCOCK    | 1627 SAUNDERS ROAD        | Ellicott City | MD         | 21041
+ WHITNEY    | WHITFIELD  | 1259 RHONE STREET         | Phippsburg    | ME         | 04567
+ MONROE     | ALLISON    | 272 SCHODDE STREET        | Kalamazoo     | MI         | 49002
+ DARLEEN    | PARRA      | 561 COLLIE HILL WAY       | Madison       | MS         | 39130
+ CLINTON    | AGUIRRE    | 1651 VANGUARD DRIVE       | Franklinville | NC         | 27248
+ TOMMIE     | PALMER     | 933 ELCADORE CIRCLE       | Arapahoe      | NC         | 28510
+ JEFFEREY   | MCBRIDE    | 1043 ROCKRIDGE DRIVE      | Glenwood      | NJ         | 07418
+ SIDNEY     | GARZA      | 772 SHEPPARD DRIVE        | Fair Harbor   | NY         | 11706
+ TAMELA     | GUIDRY     | 1873 BAXTER ROAD          | Brooklyn      | NY         | 11252
+ KAREN      | LEVINE     | 1534 PALMER COURT         | Cincinnati    | OH         | 45218
+ STEPHENIE  | MCKENZIE   | 1039 DELAWARE PLACE       | Wilkes Barre  | PA         | 18763
+ LAN        | NICHOLS    | 367 LAKEVIEW DRIVE        | Pittsburgh    | PA         | 15262
+ KASEY      | SOSA       | 975 WEST 96TH AVENUE      | Kinzers       | PA         | 17535
+ SHELBY     | THAYER     | 1634 RUANE ROAD           | Bordeaux      | SC         | 29835
+ WILSON     | BELL       | 1127 CUNNINGHAM STREET    | Louisville    | TN         | 37777
+ RENATE     | LADD       | 652 LEWIS STREET          | Crystal City  | VA         | 22202
+ MELONIE    | JIMENEZ    | 848 DOWNEY FINCH LANE     | East Monkton  | VT         | 05443
+(25 rows)
+

@@ -1,0 +1,37 @@
+ emp_num | emp_fname | emp_lname  | largestsalary 
+---------+-----------+------------+---------------
+   83509 | FRANKLYN  | STOVER     |     210000.00
+   83705 | JOSE      | BARR       |     147000.00
+   83537 | CLEO      | ENGLISH    |     136000.00
+   83565 | LOURDES   | ABERNATHY  |     133000.00
+   83593 | ROSANNE   | NASH       |     129000.00
+   83621 | FONDA     | GONZALEZ   |     126000.00
+   83649 | DELMA     | JACOB      |     123000.00
+   83677 | HERB      | MANNING    |     120000.00
+   83936 | BRADFORD  | BRAY       |     117000.00
+   83734 | INEZ      | ROCHA      |     112000.00
+   84049 | LANE      | BRANDON    |     110000.00
+   83763 | JAIME     | FELTON     |     107000.00
+   83792 | WALLY     | ANDERSEN   |     103000.00
+   83820 | TOM       | HOBSON     |     101000.00
+   83850 | RUSTY     | MILES      |      95000.00
+   83878 | PAT       | MARIN      |      93000.00
+   83906 | DELLA     | SIMONS     |      92000.00
+   83964 | HAILEY    | SWEENEY    |      85000.00
+   83993 | SANG      | CORTES     |      83000.00
+   84021 | JAROD     | DICKINSON  |      81000.00
+   84078 | DIEGO     | ERWIN      |      77000.00
+   84106 | FELICE    | SAMUEL     |      76000.00
+   84134 | ROSALIE   | GARLAND    |      75000.00
+   84163 | GWEN      | EASLEY     |      73000.00
+   84191 | ROXANA    | HOLBROOK   |      72000.00
+   84219 | THURMAN   | WILKINSON  |      71000.00
+   84248 | DANICA    | CASTLE     |      69000.00
+   84276 | ROSALIND  | VILLARREAL |      68000.00
+   84306 | ROWENA    | MEDINA     |      65000.00
+   84334 | LINNIE    | GOLDMAN    |      64000.00
+   84364 | LESLIE    | VARNER     |      62000.00
+   84392 | ALEJANDRA | WHALEY     |      61000.00
+   84420 | DOUG      | CAUDILL    |      61000.00
+(33 rows)
+

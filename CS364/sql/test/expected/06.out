@@ -1,0 +1,5 @@
+ prod_sku |              prod_descript               | prod_type | prod_base | prod_category | prod_price 
+----------+------------------------------------------+-----------+-----------+---------------+------------
+ 1403-TUY | Sealer, Water Based, for Concrete Floors | Interior  | Water     | Sealer        |      42.99
+(1 row)
+

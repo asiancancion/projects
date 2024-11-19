@@ -1,0 +1,47 @@
+ cust_code | cust_fname | cust_lname | totalinvoice 
+-----------+------------+------------+--------------
+       215 | CHARMAINE  | BRYAN      |      3134.15
+        98 | VALENTIN   | MARINO     |      3052.46
+       152 | LISETTE    | WHITTAKER  |      3042.78
+       117 | KARON      | MATA       |      3009.63
+        97 | ERWIN      | ANDERSON   |      2895.49
+       112 | LAN        | NICHOLS    |      2867.14
+       118 | JESSE      | HICKS      |      2786.55
+       220 | ABRAHAM    | PLATT      |      2187.26
+       103 | CORRINA    | GIFFORD    |      2122.07
+       302 | SHIRLENE   | FITCH      |      2046.31
+       173 | INGRID     | HARDY      |      2040.31
+       132 | JANIS      | DUBOIS     |      2015.62
+       168 | WINIFRED   | WOODWARD   |      2014.75
+        92 | CARLENE    | GONZALEZ   |      1989.00
+       207 | MARILYN    | SMALLWOOD  |      1961.47
+       216 | CATHI      | PUCKETT    |      1960.43
+       157 | ROSALINE   | BENSON     |      1952.86
+        88 | LINO       | VIGIL      |      1877.78
+        99 | MINERVA    | VENTURA    |      1818.09
+       276 | BERNARD    | BARAJAS    |      1798.43
+       113 | KORY       | GOULD      |      1786.57
+       184 | DONG       | MACIAS     |      1711.37
+       101 | LEONORA    | FARRELL    |      1707.67
+       410 | SHANNA     | CLINTON    |      1698.54
+       348 | VIRGIE     | EDWARDS    |      1696.85
+       134 | LES        | SOLOMON    |      1679.72
+       186 | CARLTON    | ROLAND     |      1672.70
+        89 | MONICA     | CANTRELL   |      1670.46
+       212 | HANNAH     | JARRETT    |      1657.30
+        96 | ROLANDA    | TRUJILLO   |      1636.82
+       105 | FRANCIS    | TRUJILLO   |      1612.38
+       175 | DORCAS     | DUNLAP     |      1595.64
+       128 | REGGIE     | CAREY      |      1593.86
+       170 | WILBER     | MURPHY     |      1580.06
+       317 | RICHARD    | VINCENT    |      1579.71
+        95 | WILMA      | DUNLAP     |      1566.70
+       107 | RAY        | KEYES      |      1563.23
+       225 | CHRISTI    | CLARK      |      1532.26
+       126 | DOLLY      | MICHAEL    |      1526.80
+       201 | IMELDA     | FIGUEROA   |      1525.10
+       274 | ANTOINETTE | CONNER     |      1524.23
+       503 | JEANNA     | KAPLAN     |      1508.10
+       136 | SID        | WELSH      |      1504.41
+(43 rows)
+

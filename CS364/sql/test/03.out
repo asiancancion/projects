@@ -1,0 +1,6 @@
+ emp_num | emp_lname | emp_fname | emp_initial | emp_hiredate | job_code 
+---------+-----------+-----------+-------------+--------------+----------
+     101 | News      | John      | G           | 2000-11-08   |      502
+     105 | Johnson   | Alice     | K           | 1993-02-01   |      502
+(2 rows)
+

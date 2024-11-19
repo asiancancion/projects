@@ -1,0 +1,6 @@
+ emp_num | emp_fname | emp_lname |        emp_email         | total 
+---------+-----------+-----------+--------------------------+-------
+   84134 | ROSALIE   | GARLAND   | G.ROSALI98@LGCOMPANY.COM |    23
+   83850 | RUSTY     | MILES     | M.RUSTY95@LGCOMPANY.COM  |    23
+(2 rows)
+

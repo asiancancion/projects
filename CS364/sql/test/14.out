@@ -1,0 +1,8 @@
+ prod_base | prod_type | numproducts 
+-----------+-----------+-------------
+ Solvent   | Exterior  |          67
+ Solvent   | Interior  |          83
+ Water     | Exterior  |          39
+ Water     | Interior  |          63
+(4 rows)
+

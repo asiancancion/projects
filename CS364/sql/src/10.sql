@@ -1,0 +1,29 @@
+-- Write a query to display the first name, last name, street, city, state, and
+-- zip code of any customer who purchased a Foresters Best brand top coat
+-- between July 15, 2015, and July 31, 2015. If a customer purchased more than
+-- one such product, display the customer's information only once in the
+-- output. Sort the output by state, last name, and then first name. (Problem
+-- 7.49)
+
+--some problems need help lol
+
+--SELECT CUST_FNAME, CUST_LNAME, CUST_STREET, CUST_CITY, CUST_STATE, CUST_ZIP
+--FROM LGCUSTOMER
+--WHERE CUST_CODE in(
+--	SELECT CUST_CODE
+	--FROM LGINVOICE
+	--WHERE INV_DATE BETWEEN '2015-07-15' and '2015-07-31' AND INV_NUM IN(
+	--	SELECT INV_NUM
+	--	FROM LGLINE
+--WHERE PROD_SKU IN(
+	--		SELECT PROD_SKU
+	--		FROM LGPRODUCT
+	--		WHERE BRAND_ID = 23
+--		)))
+--ORDER BY CUST_STATE ASC, CUST_LNAME ASC, CUST_FNAME ASC;
+
+
+SELECT DISTINCT CUST_FNAME, CUST_LNAME, CUST_STREET, CUST_CITY, CUST_STATE, CUST_ZIP
+FROM LGCUSTOMER INNER JOIN LGINVOICE ON LGCUSTOMER.CUST_CODE = LGINVOICE.CUST_CODE INNER JOIN LGLINE  ON LGINVOICE.INV_NUM = LGLINE.INV_NUM INNER JOIN LGPRODUCT ON  LGLINE.PROD_SKU = LGPRODUCT.PROD_SKU INNER JOIN LGBRAND ON LGPRODUCT.BRAND_ID = LGBRAND.BRAND_ID
+WHERE LGBRAND.BRAND_ID = 23 AND PROD_CATEGORY = 'Top Coat' AND INV_DATE BETWEEN '2015-07-15' and '2015-07-31'
+ORDER BY CUST_STATE ASC, CUST_LNAME ASC, CUST_FNAME ASC;

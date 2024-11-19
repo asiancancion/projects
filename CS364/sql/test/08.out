@@ -1,0 +1,35 @@
+ emp_fname | emp_lname | emp_phone |       emp_title       | dept_num 
+-----------+-----------+-----------+-----------------------+----------
+ LAVINA    | ACEVEDO   | 862-6787  | ASSOCIATE             |      300
+ LAUREN    | AVERY     | 550-2270  | SENIOR ASSOCIATE      |      300
+ ROSALBA   | BAKER     | 632-8197  | ASSOCIATE             |      300
+ FERN      | CARPENTER | 735-4820  | PURCHASING SPECIALIST |      300
+ LEEANN    | CLINTON   | 616-9615  | CLERK I               |      600
+ TANIKA    | CRANE     | 449-6336  | PURCHASING SPECIALIST |      300
+ SAMMY     | DIGGS     | 525-2101  | SENIOR ASSOCIATE      |      300
+ LANA      | DOWDY     | 471-8795  | SENIOR ASSOCIATE      |      300
+ STEPHAINE | DUNLAP    | 618-8203  | BUYER - RAW MATERIALS |      300
+ HAL       | FISHER    | 676-3662  | SENIOR ASSOCIATE      |      300
+ LINDSAY   | GOOD      | 337-9570  | CLERK I               |      600
+ LEEANN    | HORN      | 828-4361  | SENIOR ASSOCIATE      |      300
+ MERLE     | JAMISON   | 750-7714  | PURCHASING SPECIALIST |      300
+ DELFINA   | JUDD      | 873-1963  | ASSOCIATE             |      300
+ TRACIE    | KELLY     | 731-4210  | PURCHASING SPECIALIST |      300
+ WILLA     | MAXWELL   | 509-6396  | ASSOCIATE             |      300
+ DENNA     | MCGRAW    | 619-6848  | CLERK I               |      600
+ CARROLL   | MENDEZ    | 546-2615  | ASSOCIATE MANAGER     |      300
+ LUISA     | MINER     | 342-9315  | BUYER - CORPORATE     |      300
+ AWILDA    | MORRIS    | 292-9634  | CLERK I               |      600
+ RONNA     | NORWOOD   | 758-3150  | PURCHASING SPECIALIST |      300
+ IGNACIO   | PECK      | 813-9230  | CLERK I               |      600
+ CORRINA   | RAMEY     | 313-4338  | PURCHASING SPECIALIST |      300
+ SEAN      | RANKIN    | 721-7874  | PURCHASING SPECIALIST |      300
+ HENRY     | RIVERA    | 638-3323  | BUYER - CORPORATE     |      300
+ PORTER    | STACY     | 238-2527  | PURCHASING SPECIALIST |      300
+ TONEY     | TANNER    | 677-5804  | CLERK I               |      600
+ ODELL     | TIDWELL   | 638-6471  | SENIOR ASSOCIATE      |      300
+ ROCKY     | VARGAS    | 362-6523  | PURCHASING SPECIALIST |      300
+ MERLE     | WATTS     | 406-3691  | SENIOR ASSOCIATE      |      300
+ CHRISTINE | WESTON    | 559-3041  | SENIOR ASSOCIATE      |      300
+(31 rows)
+

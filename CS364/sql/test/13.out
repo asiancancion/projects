@@ -1,0 +1,9 @@
+ prod_category | numproducts 
+---------------+-------------
+ Cleaner       |           2
+ Filler        |           2
+ Primer        |          16
+ Sealer        |           1
+ Top Coat      |          81
+(5 rows)
+

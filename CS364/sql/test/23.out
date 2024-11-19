@@ -1,0 +1,54 @@
+ cust_code | cust_fname | cust_lname |        cust_street         |    cust_city     | cust_state | cust_zip |  inv_date  | largest invoice 
+-----------+------------+------------+----------------------------+------------------+------------+----------+------------+-----------------
+       903 | ROBIN      | ADDISON    | 323 LORETTA PLACE          | Mobile           | AL         | 36693    | 2015-08-26 |          230.63
+       643 | NINA       | ALLEN      | 680 RED TALON DRIVE        | Robertsdale      | AL         | 36574    | 2015-06-21 |           11.99
+       295 | DORTHY     | AUSTIN     | 829 BIG BEND LOOP          | Diamond Shamrock | AL         | 36614    | 2015-04-24 |          589.75
+       393 | FOSTER     | BERNAL     | 1299 EAST 3RD AVENUE       | Birmingham       | AL         | 35280    |            |            0.00
+       853 | GAYLORD    | BOLTON     | 1069 LUGENE LANE           | Montgomery       | AL         | 36131    | 2015-11-25 |          372.68
+       925 | ALANA      | BOOKER     | 1874 I STREET              | Mccullough       | AL         | 36502    | 2015-12-12 |          208.85
+      1248 | LISA       | BRADY      | 491 LOWLAND AVENUE         | Daphne           | AL         | 36577    | 2015-12-05 |          414.47
+       538 | CHIQUITA   | CALDWELL   | 1501 BRIGGS COURT          | Normal           | AL         | 35762    | 2015-05-26 |          143.90
+        89 | MONICA     | CANTRELL   | 697 ADAK CIRCLE            | Loachapoka       | AL         | 36865    | 2015-03-31 |          516.58
+      1233 | NATHALIE   | CHURCH     | 1802 SNOWY OWL CIRCLE      | Napier Field     | AL         | 36303    | 2015-11-24 |          160.96
+       304 | GERTRUDE   | CONNORS    | 1042 PLEASANT DRIVE        | Georgiana        | AL         | 36033    | 2015-12-29 |          376.32
+      1131 | CARMA      | CORNETT    | 767 CHISANA WAY            | Killen           | AL         | 35645    | 2015-10-25 |          265.12
+      1407 | FELICIA    | CRUZ       | 643 TURNAGAIN PARKWAY      | Coalburg         | AL         | 35068    | 2016-01-06 |          387.93
+      1068 | ELIZA      | CURRIE     | 778 LOUDERMILK CIRCLE      | Panola           | AL         | 35477    | 2015-10-10 |          365.84
+       820 | MARCELA    | DUGAN      | 1785 DORIS PLACE           | Sylacauga        | AL         | 35150    | 2015-08-04 |          195.34
+       380 | ALBINA     | ENGLE      | 670 UPPER BOWERY LANE      | Clanton          | AL         | 35045    | 2015-04-12 |          124.02
+       753 | CECIL      | ESPARZA    | 1928 VALLEY VISTA CIRCLE   | Mulga            | AL         | 35118    | 2015-07-19 |          179.60
+       855 | AUBREY     | GLOVER     | 907 GOLD CLAIM DRIVE       | Honoraville      | AL         | 36042    | 2015-08-15 |          300.47
+       188 | LUANNE     | GOODWIN    | 293 KIANA AVENUE           | Pinegrove        | AL         | 36507    | 2015-02-27 |          290.88
+       585 | LORRAINE   | HANNAH     | 173 LAUREL STREET          | Orange Beach     | AL         | 36561    | 2015-06-06 |          403.20
+       738 | ALIDA      | HANSEN     | 792 FERGY CIRCLE           | Furman           | AL         | 36741    | 2015-08-02 |          110.97
+       798 | LETICIA    | HEBERT     | 1244 DEER PARK DRIVE       | Shorterville     | AL         | 36373    | 2015-07-29 |           41.07
+      1412 | EVALYN     | HEWITT     | 293 TIMOTHY CIRCLE         | Tallassee        | AL         | 36078    | 2016-01-07 |          200.87
+       416 | TATIANA    | HOWE       | 1650 ALL STAR CIRCLE       | Sunny South      | AL         | 36769    | 2015-06-23 |          376.83
+      1350 | LATONYA    | KAY        | 61 LOUSSAC DRIVE           | Seaboard         | AL         | 36529    | 2015-12-24 |          275.46
+       915 | CARLOTTA   | KNIGHT     | 335 HESTERBERG ROAD        | Winslow          | AL         | 36003    | 2015-11-14 |          212.68
+       169 | ROSS       | LANG       | 1991 EASTWIND COURT        | Higdon           | AL         | 35979    | 2015-02-14 |          512.57
+      1440 | LONNIE     | MANNING    | 644 PARKER PLACE           | Big Cove         | AL         | 35763    | 2016-01-15 |          377.51
+       931 | PANSY      | MAYBERRY   | 728 LYNKERRY CIRCLE        | Enterprise       | AL         | 36330    | 2015-09-03 |          294.87
+       979 | IMOGENE    | MAYES      | 1017 HARCA STREET          | Sylacauga        | AL         | 35150    | 2015-09-15 |          245.51
+       364 | DELLA      | MAYO       | 543 STELIOS CIRCLE         | Birmingham       | AL         | 35214    | 2015-05-10 |          195.10
+       881 | LIZ        | MCQUEEN    | 1203 VALLEY STREET         | Brewton          | AL         | 36426    | 2015-08-26 |          318.47
+      1275 | ELEANORE   | NEFF       | 556 CACHE DRIVE            | Saint Stephens   | AL         | 36569    | 2015-12-06 |          428.73
+      1172 | ADELE      | PERKINS    | 1192 RICHARDSON VISTA ROAD | Sylacauga        | AL         | 35150    | 2015-11-06 |          249.91
+       780 | LARISSA    | POOL       | 574 ADAK CIRCLE            | Decatur          | AL         | 35609    | 2016-01-06 |          243.05
+      1253 | TRENTON    | PRESLEY    | 1905 ANCHOR PARK CIRCLE    | Montgomery       | AL         | 36131    | 2015-11-28 |          348.95
+      1439 | SHANNA     | PRITCHARD  | 1448 ARLENE DRIVE          | Lavaca           | AL         | 36911    | 2016-01-14 |           71.98
+       487 | ROSENDO    | REYNA      | 1009 HAMPSHIRE BOULEVARD   | Gunter Afs-Eci   | AL         | 36118    | 2015-05-10 |          261.76
+      1264 | MICHAELA   | RICHARD    | 44 RASMUSSON STREET        | Georgetown       | AL         | 36521    | 2015-12-02 |          143.96
+      1029 | JOHNETTA   | ROY        | 1163 GIROUX CIRCLE         | Dauphin Island   | AL         | 36528    | 2015-09-28 |          224.61
+       218 | LUPE       | SANTANA    | 1292 WEST 70TH PLACE       | Phenix City      | AL         | 36867    | 2015-02-28 |          357.01
+      1100 | ELEANORE   | SAUNDERS   | 820 QUARTZ AVENUE          | Silver Cross     | AL         | 36538    | 2015-10-18 |          326.03
+      1443 | ALYSON     | SELF       | 772 LUPIN DRIVE            | Motley           | AL         | 36276    | 2016-01-16 |          114.90
+       286 | JEANNE     | STEINER    | 1974 SCHUSS DRIVE          | Carrollton       | AL         | 35447    | 2015-03-20 |          226.40
+       367 | HOLLIS     | STILES     | 1493 DOLLY MADISON CIRCLE  | Snow Hill        | AL         | 36778    | 2015-07-17 |          312.33
+       886 | ROSARIO    | STOKES     | 959 SUNRISE DRIVE          | Hightower        | AL         | 36263    | 2015-08-23 |          120.12
+       696 | ALISHA     | TOMLINSON  | 1985 EAST 52ND AVENUE      | Catherine        | AL         | 36728    | 2015-07-07 |           37.98
+       458 | ELOISA     | VALLE      | 182 BRANDON STREET         | Abel             | AL         | 36258    | 2015-05-04 |          293.83
+       219 | CATHI      | WHITEHEAD  | 760 WOODCLIFF DRIVE        | Huntsville       | AL         | 35893    | 2015-11-19 |          273.23
+       152 | LISETTE    | WHITTAKER  | 339 NORTHPARK DRIVE        | Montgomery       | AL         | 36197    | 2015-04-23 |          418.83
+(50 rows)
+
