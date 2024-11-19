@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Volunteer Information</title>
+    <link rel="stylesheet" type="text/css" href="csl.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+      function emailLength(){
+        let emailInput = document.getElementById("emailAddress").value;
+        if (emailInput.length > 50){
+          return false;
+        }
+        return true;
+      }
+    </script>
+    
+  </head>
+  
+  
+  <body>    
+    <h1>Williamsburg Youth Orchestra Attendance System</h1>
+    <h2>
+    <break>
+    <img src = "wyo-logo.jpeg" /> </break>
+    <nav>
+    <a href = "./start.html">Login Page</a> | 
+    <a href = "./admin.html">Admin Page</a> | 
+    <a href = "./member.html">Member Page</a></nav></h2>
+    <div class="table">
+      <center>
+      <style>
+        table {
+          border-collapse: collapse;
+          width: 90%;
+          text-align: center;
+        }
+        
+        th, td {
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: white;
+        }
+        tr:hover {background-color: #D6EEEE;}
+        div2 {
+          border-radius: 5px;
+          background-color: #ffffff;
+          padding: 20px;
+        }
+        </style>
+          <h4>Rehearsal 2</h3>
+            <table>
+              <tr>
+
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Phone Number</th>
+                <th>Email</th>
+                <th>Instrument</th>
+                <th>Days Missed</th>
+                <th>Check in/Out</th>
+              </tr>
+              <tr>
+                <td>Jane</td>
+                <td>Doe</td>
+                <td>111-111-1111</td>
+                <td>marydoe@gmail.com</td>
+                <td>Trombone</td>
+                <td>0</td>
+                <td>
+                <label class = "switch">
+                <input type = "checkbox">
+                <span class="slider round"></span>
+                </label>
+                
+                
+              </tr>
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>111-111-1111</td>
+                <td>marydoe@gmail.com</td>
+                <td>Trombone</td>
+                <td>0</td>
+                <td><label class = "switch">
+                <input type = "checkbox">
+                <span class="slider round"></span>
+                </label>
+              </tr>
+            </table>
+    </div>
+  
+   
+    
+    
+  </body>
+  
+  
+</html>

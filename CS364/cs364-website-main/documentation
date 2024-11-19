@@ -1,0 +1,28 @@
+Used these links to refactor code in Sessions lesson handout:
+https://www.php.net/manual/en/function.pg-connect.php
+https://www.php.net/manual/en/function.pg-prepare.php
+https://www.php.net/manual/en/function.pg-fetch-row.php
+https://www.php.net/manual/en/function.pg-fetch-assoc.php
+https://tecfa.unige.ch/guides/php/php5/function.pg-fetch-assoc.html
+
+
+Logout button:
+https://stackoverflow.com/questions/12209438/logout-button-php/12209491#12209491
+https://www.quora.com/How-do-you-create-a-logout-button-using-PHP
+
+
+retrieveing records:
+https://stackoverflow.com/questions/49157928/how-to-fetch-data-from-postgresql-using-php
+https://stackoverflow.com/questions/66294094/how-to-use-prepared-statements-with-postgres-in-php
+https://stackoverflow.com/questions/16330925/how-to-display-pg-query-results-in-a-table-using-php
+
+
+CRUD Operations:
+https://www.w3resource.com/PostgreSQL/PostgreSQL-with-php-a-through-introduction.php
+https://stackoverflow.com/questions/51351659/checking-to-see-if-data-is-already-in-a-psql-database-using-php
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-exists/
+
+
+
+For password hashing:
+https://www.php.net/manual/en/function.password-hash.php

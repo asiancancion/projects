@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Edit Members</title>
+  <link rel="stylesheet" type="text/css" href="csl.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="partners">
+  <h1>Williamsburg Youth Orchestra Attendance System</h1>
+    <a href="logout.php"><button>Logout</button></a>
+    <h2>
+    <break>
+    <img src = "wyo-logo.jpeg" /> </break>
+    <nav>
+    <br><br>
+    <nav>
+        <a href="./member_crud.html"><button>Edit Members</button></a> 
+        <a href="./user_crud.html"><button>Edit Users</button></a> 
+        <a href="./rehearsal.php"><button>Rehearsal</button></a> 
+        <a href="./rental.php"><button>Rentals</button></a> 
+        <a href="./admin.php"><button>Admin</button></a>
+        <br>
+        <br>
+    </nav>
+    </h2>
+    <center>
+    <div class="adminTitle">
+      <h2>Edit Members</h2>
+    </div>
+  </center>
+
+  <center>
+    <h4>Add members</h4>
+    <div>
+    <form id="form" action="createMember.php" method="POST">
+      <label>First Name</label><br>
+      <input
+      type="text"
+      id="firstName"
+      pattern="[A-Za-z\s\-]{1,50}"
+      placeholder="Less than 50 characters"
+      name="firstName"
+      ><br><br>
+      <label>Last Name</label><br><input
+      type="text"
+      id="lastName"
+      patter="[A-Za-z\s\-]{1,50}"
+      placeholder="Less than 50 characters"
+      name="lastName"
+      ><br><br>
+      <label>Phone</label><br><input
+      type="text"
+      pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+      id="phoneNum"
+      placeholder="(721) 333-7575"
+      name="phoneNum"
+      ><br><br>
+      <label>Email</label><br><input
+      type="text"
+      id="email"
+      patter="^[^!-#-$-%-^-&-*-(-)-+-=][A-Z0-9+_.-]+@[A-Z0-9.-]+$"
+      placeholder="example@gmail.com"
+      name="email"
+      ><br><br>
+      <label>Instrument</label><br>
+      <select name="instrument" id="instrument">
+        <option value="Viola">Viola</option>
+        <option value="Violin">Violin</option>
+        <option value="Cello">Cello</option>
+        <option value="Trumpet">Trumpet</option>
+        <option value="Tuba">Tuba</option>
+        <option value="Oboe">Oboe</option>
+        <option value="Clarinet">Clarinet</option>
+        <option value="French Horn">French Horn</option>
+        <option value="Conductor">Conductor</option>
+      </select>
+      <br><br>
+
+      <input type="submit" name="submit" value="Add User">
+    </form>
+    </center>
+    </div>
+
+  <center>
+    <h4>Edit members</h4>
+  <div>
+    <form id="form" action="updateMember.php" method="POST">
+      <label>First Name</label><br><input
+      type="text"
+      id="firstName"
+      pattern="[A-Za-z\s\-]{1,50}"
+      placeholder="Less than 50 characters"
+      name="firstName"
+      ><br><br>
+      <label>Last Name</label><br><input
+      type="text"
+      id="lastName"
+      pattern="[A-Za-z\s\-]{1,50}"
+      placeholder="Less than 50 characters"
+      name="lastName"
+      ><br><br>
+      <label>Phone</label><br><input
+      type="text"
+      pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+      id="phoneNum"
+      placeholder="(721) 333-7575"
+      name="phoneNum"
+      ><br><br>
+      <label>Email</label><br><input
+      type="text"
+      id="email"
+      pattern="^[^!-#-$-%-^-&-*-(-)-+-=][A-Z0-9+_.-]+@[A-Z0-9.-]+$"
+      placeholder="example@gmail.com"
+      name="email"
+      ><br><br>
+
+      <label>Instrument</label><br>
+      <select name="instrument" id="instrument">
+        <option value="Viola">Viola</option>
+        <option value="Violin">Violin</option>
+        <option value="Cello">Cello</option>
+        <option value="Trumpet">Trumpet</option>
+        <option value="Tuba">Tuba</option>
+        <option value="Oboe">Oboe</option>
+        <option value="Clarinet">Clarinet</option>
+        <option value="French Horn">French Horn</option>
+        <option value="Conductor">Conductor</option>
+      </select>
+      <br><br>
+
+
+      <input type="submit" name="submit" value="Edit User">
+    </form>
+  </div>
+  </center>
+
+  <center>
+    <h4>Delete members</h4>
+  <div>
+    <form id="form" action="deleteMember.php" method="POST">
+      <label>First Name</label><br><input
+      type="text"
+      id="firstName"
+      pattern="[A-Za-z\s\-]{1,50}"
+      placeholder="Less than 50 characters"
+      name="firstName"
+      ><br><br>
+      <label>Email</label><br><input
+      type="text"
+      id="email"
+      pattern="^[^!-#-$-%-^-&-*-(-)-+-=][A-Z0-9+_.-]+@[A-Z0-9.-]+$"
+      placeholder="example@gmail.com"
+      name="email"
+      ><br><br>
+
+      <input type="submit" name="submit" value="Delete User">
+    </form>
+  </center>
+</div>
+
+</body>
+<html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Service Partners </title>
+    <link rel="stylesheet" type="text/css" href="csl.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <script>
+  function addUser(){
+    if (document.getElementById('form').checkValidity()){
+      alert('User added');
+      return true;
+    }
+    else{
+      return false;
+    }
+    
+  }
+  </script>
+  
+  <body class = "partners">    
+    <h1>Williamsburg Youth Orchestra Attendance System</h1>
+    <h2>
+    <break>
+    <img src = "wyo-logo.jpeg" /> </break>
+    <nav>
+    <a href = "./start.html">Login Page</a> | 
+    <a href = "./admin.html">Admin Page</a> | 
+    <a href = "./member.html">Member Page</a></nav></h2>
+    
+    <div class="adminTitle">
+    <h2>Admin Page</h2>
+    </div?
+
+
+    <!-- comment-->
+
+      <!-- displaying the student records -->
+    <div class="table">
+      <center>
+      <style>
+        table {
+          border-collapse: collapse;
+          width: 90%;
+          text-align: center;
+        }
+        
+        th, td {
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: white;
+        }
+        tr:hover {background-color: #D6EEEE;}
+        div2 {
+          border-radius: 5px;
+          background-color: #ffffff;
+          padding: 20px;
+        }
+        </style>
+          <h4>Member Records</h3>
+            <table>
+              <tr>
+
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Phone Number</th>
+                <th>Email</th>
+                <th>Instrument</th>
+                <th>Days Missed</th>
+              </tr>
+              <tr>
+                <td>Jane</td>
+                <td>Doe</td>
+                <td>111-111-1111</td>
+                <td>marydoe@gmail.com</td>
+                <td>Trombone</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>John</td>
+                <td>Snow</td>
+                <td>222-222-2222</td>
+                <td>johnsnow@gmail.com</td>
+                <td>Conductor</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>111-111-1111</td>
+                <td>marydoe@gmail.com</td>
+                <td>Trombone</td>
+                <td>0</td>
+              </tr>
+            </table>
+        
+
+      </div>
+          <!--Adding people-->
+    <div>
+      <style>
+        input[type=text], select {
+          width: 25%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+        
+        input[type=submit] {
+          width: 20%;
+          background-color: gray;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        
+        div {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        </style>
+  <center>
+    <h4>Add members</h3>
+    <!-- get data to add in -->
+    <form id="form" onsubmit="return addUser();">
+      First Name<input 
+        type="text" 
+        id="firstName" 
+        pattern="[A-Za-z\s\-]{1,50}"
+        placeholder="Less than 50 characters"
+        ><br><br>
+      Last Name<input
+        type="text"
+        id="lastName"
+        patter="[A-Za-z\s\-]{1,50}"
+        placeholder="Less than 50 characters"
+        ><br><br>
+      Phone<input
+        type="tel"
+        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+        id="phoneNum"
+        placeholder="(721) 333-7575"
+        ><br><br>
+      Email<input
+        type="text"
+        id="email"
+        patter="^[^!-#-$-%-^-&-*-(-)-+-=][A-Z0-9+_.-]+@[A-Z0-9.-]+$"
+        placeholder="example@gmail.com"
+        ><br><br>
+      
+
+      Instrument
+      <select name="instrment " id="cars">
+        <option value="Viola">Viola</option>
+        <option value="Violin">Violin</option>
+        <option value="Chello">Chello</option>
+        <option value="Trumpet">Trumpet</option>
+        <option value="Tuba">Tuba</option>
+        <option value="Oboe">Oboe</option>
+        <option value="Clarinet">Clarinet</option>
+        <option value="French Horn">French Horn</option>
+        <option value="Conductor">Conductor</option>
+      </select>
+      <br><br>
+
+
+
+      <input type="submit" name = "submit" value = "Add User">
+
+    </form>
+    </center>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Users</title>
+    <link rel="stylesheet" type="text/css" href="csl.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="partners">
+    <h1>Williamsburg Youth Orchestra Attendance System</h1>
+    <a href="logout.php"><button>Logout</button></a>
+    <h2>
+    <break>
+    <img src = "wyo-logo.jpeg" /> </break>
+    <nav>
+    <br><br>
+    <nav>
+        <a href="./member_crud.html"><button>Edit Members</button></a> 
+        <a href="./user_crud.html"><button>Edit Users</button></a> 
+        <a href="./rehearsal.php"><button>Rehearsal</button></a> 
+        <a href="./rental.php"><button>Rentals</button></a> 
+        <a href="./admin.php"><button>Admin</button></a>
+        <br>
+        <br>
+    </nav>
+    </h2>
+    <center>
+      <div class="adminTitle">
+        <h2>Edit Users</h2>
+      </div>
+    </center>
+    <center>
+    <h4>Create User</h4>
+    <div>
+    <form id="form1" action="createUser.php" method="POST">
+        <label>Email:</label><br>
+            <input type="email" id="emailAddress" name="username" required placeholder="name@example.com" pattern="^[A-Za-z0-9_.-]+@[A-Za-z0-9_.-]{2,50}$" title="Email must be 1-50 characters and only contain spaces, letters, and hyphens"/>
+        <br><br>
+
+        <label>Password:</label><br>
+            <input type="password" name="password" placeholder="Letters, numbers, special characters" title="Last Name must be 1-50 characters and only contain spaces, letters, and hyphens"/>
+        <br><br>
+	<div class = "fixCheck">
+	
+        <label>User Admin:</label>
+              <input type = "hidden" name="user_admin" value = "false"> 
+              <input type="checkbox" id="user_admin" name="user_admin" value="true"/>
+        </div>
+        <input type="submit" name="submit" value="Create User">
+    </form>
+    </div>
+  </center>
+
+    <center>
+    <h4>Update User</h4>
+    <div>
+    <form id="form2" action="updateUser.php" method="POST">
+        <label>Email:</label><br>
+            <input type="email" id="emailAddress" name="username" required placeholder="name@example.com" pattern="^[A-Za-z0-9_.-]+@[A-Za-z0-9_.-]{2,50}$" title="Email must be 1-50 characters and only contain spaces, letters, and hyphens"/>
+        <br><br>
+
+        <label>Password</label><br>
+            <input type="password" name="password" placeholder="Letters, numbers, special characters" title="Password must be secure"/>
+         <br><br>
+
+    
+    <div class = "fixCheck">
+	
+        <label>User Admin:</label>
+              <input type = "hidden" name="user_admin" value = "false"> 
+              <input type="checkbox" id="user_admin" name="user_admin" value="true"/>
+        </div>
+    <input type="submit" name = "submit" value = "Edit User">
+    </form>
+    </div>
+  </center>
+
+    <center>
+    <h4>Delete User</h4>
+    <div>
+    <form id="form3" action="deleteUser.php" method="POST">
+          <label>Email:</label><br>
+            <input type="text" id="email" name="username" pattern="^[^!-#-$-%-^-&-*-(-)-+-=][A-Z0-9+_.-]+@[A-Z0-9.-]+$" placeholder="example@gmail.com"/>
+          <br><br>
+        <input type="submit" name="submit" value="Delete User">
+    </form>
+  </div>
+</center>
+</body>
+</html>
