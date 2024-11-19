@@ -1,0 +1,27 @@
+{
+  "configurations" : [
+    {
+      "id" : "D9A5F850-7083-4F11-9982-A0452EFC1113",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "locationScenario" : {
+      "identifier" : "New York, NY, USA",
+      "referenceType" : "built-in"
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:pex1.xcodeproj",
+      "identifier" : "F54E4C8E2CA13C300022ED45",
+      "name" : "pex1"
+    }
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}

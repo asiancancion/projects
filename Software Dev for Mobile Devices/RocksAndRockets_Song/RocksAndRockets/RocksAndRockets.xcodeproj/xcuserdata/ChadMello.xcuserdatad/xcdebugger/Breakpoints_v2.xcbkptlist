@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B4B23E55-7123-4507-BDAE-EFB0C0DDD17F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B296725E-3D8F-4E40-94E2-63C81A0B766B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RocksAndRockets/GameScene.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "GameScene"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B296725E-3D8F-4E40-94E2-63C81A0B766B - 71425b50b8333cdd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RocksAndRockets.GameScene.player.getter : __C.SKSpriteNode"
+                  moduleName = "RocksAndRockets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ChadMello%201/Documents/USAFA/PEXs/RocksAndRockets/RocksAndRockets/RocksAndRockets/GameScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "B296725E-3D8F-4E40-94E2-63C81A0B766B - c1d9119f36974505"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RocksAndRockets.GameScene.init(size: __C.CGSize) -&gt; RocksAndRockets.GameScene"
+                  moduleName = "RocksAndRockets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ChadMello%201/Documents/USAFA/PEXs/RocksAndRockets/RocksAndRockets/RocksAndRockets/GameScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "46">
+               </Location>
+               <Location
+                  uuid = "B296725E-3D8F-4E40-94E2-63C81A0B766B - 961beebc38b24782"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RocksAndRockets.GameScene.init() -&gt; RocksAndRockets.GameScene"
+                  moduleName = "RocksAndRockets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ChadMello%201/Documents/USAFA/PEXs/RocksAndRockets/RocksAndRockets/RocksAndRockets/GameScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "29">
+               </Location>
+               <Location
+                  uuid = "B296725E-3D8F-4E40-94E2-63C81A0B766B - 9afdafee497a40cd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RocksAndRockets.GameScene.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;RocksAndRockets.GameScene&gt;"
+                  moduleName = "RocksAndRockets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ChadMello%201/Documents/USAFA/PEXs/RocksAndRockets/RocksAndRockets/RocksAndRockets/GameScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
