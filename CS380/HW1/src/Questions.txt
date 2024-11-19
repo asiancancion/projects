@@ -1,0 +1,13 @@
+Question 4: Algorithm A performs 10n
+            2 basic operations, and algorithm B performs 300 ln n
+            basic operations. For what value of n does algorithm B start to show its better
+            performance?
+
+https://www.desmos.com/calculator
+
+
+
+Question 5:
+O(n) = Blog(B) + Alog(B)
+
+Question 6:
