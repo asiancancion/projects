@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1080.5693px" preserveAspectRatio="none" style="width:1098px;height:1080px;background:#FFFFFF;" version="1.1" viewBox="0 0 1098 1080" width="1098.3418px" zoomAndPan="magnify">
+  <defs/>
+  <g>
+    <rect fill="#FFFFFF" height="753.7007" style="stroke:#181818;stroke-width:3.5545041975753056;" width="35.545" x="302.1329" y="240.9912"/>
+    <rect fill="#FFFFFF" height="106.6351" style="stroke:#181818;stroke-width:3.5545041975753056;" width="35.545" x="874.408" y="579.0579"/>
+    <rect height="272.35" style="stroke:#000000;stroke-width:5.331756296362959;fill:none;" width="917.0621" x="159.9527" y="441.7791"/>
+    <line style="stroke:#181818;stroke-width:1.7772520987876528;fill:none;stroke-dasharray:5.0,5.0;" x1="319.9054" x2="319.9054" y1="129.6977" y2="1058.673"/>
+    <line style="stroke:#181818;stroke-width:1.7772520987876528;fill:none;stroke-dasharray:5.0,5.0;" x1="892.1806" x2="892.1806" y1="378.7074" y2="1058.673"/>
+    <rect fill="#E2E2F0" height="108.3707" rx="8.8863" ry="8.8863" style="stroke:#181818;stroke-width:1.7772520987876528;" width="248.8153" x="195.4977" y="17.7725"/>
+    <text fill="#000000" font-family="sans-serif" font-size="49.7631" lengthAdjust="spacing" textLength="199.0522" x="220.3793" y="90.7648">rubik.py</text>
+    <rect fill="#FFFFFF" height="753.7007" style="stroke:#181818;stroke-width:3.5545041975753056;" width="35.545" x="302.1329" y="240.9912"/>
+    <rect fill="#FFFFFF" height="106.6351" style="stroke:#181818;stroke-width:3.5545041975753056;" width="35.545" x="874.408" y="579.0579"/>
+    <polygon fill="#181818" points="259.4788,226.7732,295.0238,240.9912,259.4788,255.2092,273.6968,240.9912" style="stroke:#181818;stroke-width:3.5545041975753056;"/>
+    <line style="stroke:#181818;stroke-width:3.5545041975753056;" x1="0" x2="280.8058" y1="240.9912" y2="240.9912"/>
+    <text fill="#000000" font-family="sans-serif" font-size="46.2086" lengthAdjust="spacing" textLength="234.5973" x="24.8815" y="224.1351">main(args)</text>
+    <polygon fill="#181818" points="760.6639,330.9577,796.2089,345.1757,760.6639,359.3937,774.8819,345.1757" style="stroke:#181818;stroke-width:3.5545041975753056;"/>
+    <line style="stroke:#181818;stroke-width:3.5545041975753056;" x1="337.6779" x2="781.9909" y1="345.1757" y2="345.1757"/>
+    <text fill="#000000" font-family="sans-serif" font-size="46.2086" lengthAdjust="spacing" textLength="88.8626" x="362.5594" y="328.3196">new</text>
+    <rect fill="#E2E2F0" height="108.3707" rx="8.8863" ry="8.8863" style="stroke:#181818;stroke-width:1.7772520987876528;" width="177.7252" x="803.3179" y="269.4273"/>
+    <text fill="#000000" font-family="sans-serif" font-size="49.7631" lengthAdjust="spacing" textLength="127.9622" x="828.1995" y="342.4196">Cube</text>
+    <path d="M159.9527,441.7791 L422.986,441.7791 L422.986,467.7644 L387.441,503.3095 L159.9527,503.3095 L159.9527,441.7791 " fill="#EEEEEE" style="stroke:#000000;stroke-width:5.331756296362959;"/>
+    <rect fill="none" height="272.35" style="stroke:#000000;stroke-width:5.331756296362959;" width="917.0621" x="159.9527" y="441.7791"/>
+    <text fill="#000000" font-family="sans-serif" font-size="46.2086" font-weight="bold" lengthAdjust="spacing" textLength="103.0806" x="213.2703" y="490.0078">loop</text>
+    <text fill="#000000" font-family="sans-serif" font-size="39.0995" font-weight="bold" lengthAdjust="spacing" textLength="582.9387" x="476.3036" y="486.6894">[until no more moves in file]</text>
+    <polygon fill="#181818" points="831.754,564.8399,867.299,579.0579,831.754,593.2759,845.972,579.0579" style="stroke:#181818;stroke-width:3.5545041975753056;"/>
+    <line style="stroke:#181818;stroke-width:3.5545041975753056;" x1="337.6779" x2="853.081" y1="579.0579" y2="579.0579"/>
+    <text fill="#000000" font-family="sans-serif" font-size="46.2086" lengthAdjust="spacing" textLength="469.1946" x="362.5594" y="562.2018">move(face, direction)</text>
+    <path d="M355.4504,756.7831 L355.4504,898.9633 L806.8725,898.9633 L806.8725,792.3281 L771.3274,756.7831 L355.4504,756.7831 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.7772520987876528;"/>
+    <path d="M771.3274,756.7831 L771.3274,792.3281 L806.8725,792.3281 L771.3274,756.7831 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.7772520987876528;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="46.2086" lengthAdjust="spacing" textLength="376.7774" x="376.7774" y="819.2299">print cube's final</text>
+    <text fill="#000000" font-family="sans-serif" font-size="46.2086" lengthAdjust="spacing" textLength="302.1329" x="376.7774" y="873.6513">configuration</text>
+    <line style="stroke:#A80036;stroke-width:7.109008395150611;" x1="860.19" x2="924.1711" y1="962.7014" y2="1026.6824"/>
+    <line style="stroke:#A80036;stroke-width:7.109008395150611;" x1="860.19" x2="924.1711" y1="1026.6824" y2="962.7014"/>
+    <!--MD5=[dedd5c25197da3a5c3f7b5c052fe331d]
+@startuml
+hide footbox
+scale 1920*1080
+skinparam classAttributeIconSize 0
+
+[-> rubik.py : main(args)
+activate rubik.py
+  create Cube
+  rubik.py -> Cube : new
+
+  loop until no more moves in file
+    rubik.py -> Cube : move(face, direction)
+    activate Cube
+    deactivate Cube
+  end
+
+  note right of rubik.py
+    print cube's final
+    configuration
+  end note
+  rubik.py -[hidden]> Cube : __str__
+
+  destroy Cube
+deactivate rubik.py
+
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 11:34:49 MDT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+  </g>
+</svg>

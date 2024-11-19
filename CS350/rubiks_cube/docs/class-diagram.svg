@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="389.4482px" preserveAspectRatio="none" style="width:1921px;height:389px;background:#FFFFFF;" version="1.1" viewBox="0 0 1921 389" width="1921.0089px" zoomAndPan="magnify">
+  <defs/>
+  <g>
+    <!--MD5=[aa8a78138df9b9efe652e3f572dfeb01]
+class Cube-->
+    <g id="elem_Cube">
+      <rect codeLine="2" fill="#F1F1F1" height="363.0268" id="Cube" rx="5.0447" ry="5.0447" style="stroke:#181818;stroke-width:1.0089332632685233;" width="770.825" x="639.6637" y="14.1251"/>
+      <ellipse cx="980.1787" cy="46.4109" fill="#ADD1B2" rx="22.1965" ry="22.1965" style="stroke:#181818;stroke-width:2.0178665265370466;"/>
+      <path d="M985.1691,58.8068 Q983.9967,59.4098 982.7069,59.7113 Q981.4172,60.0128 979.9934,60.0128 Q974.935,60.0128 972.2717,56.6796 Q969.6085,53.3464 969.6085,47.0484 Q969.6085,40.7337 972.2717,37.4005 Q974.935,34.0673 979.9934,34.0673 Q981.4172,34.0673 982.7237,34.3688 Q984.0301,34.6703 985.1691,35.2733 L985.1691,40.7672 Q983.8962,39.5947 982.6985,39.0503 Q981.5009,38.506 980.2279,38.506 Q977.5145,38.506 976.1326,40.6583 Q974.7507,42.8107 974.7507,47.0484 Q974.7507,51.2694 976.1326,53.4217 Q977.5145,55.5741 980.2279,55.5741 Q981.5009,55.5741 982.6985,55.0297 Q983.8962,54.4854 985.1691,53.3129 Z " fill="#000000"/>
+      <text fill="#000000" font-family="sans-serif" font-size="28.2501" lengthAdjust="spacing" textLength="72.6432" x="1021.5449" y="57.0875">Cube</text>
+      <line style="stroke:#181818;stroke-width:1.0089332632685233;" x1="641.6816" x2="1408.4708" y1="78.6968" y2="78.6968"/>
+      <line style="stroke:#181818;stroke-width:1.0089332632685233;" x1="641.6816" x2="1408.4708" y1="94.8397" y2="94.8397"/>
+      <text fill="#000000" font-family="sans-serif" font-size="28.2501" lengthAdjust="spacing" textLength="746.6106" x="651.7709" y="130.2233">+get_color_at(face : char, row : int, column : int) : char</text>
+      <text fill="#000000" font-family="sans-serif" font-size="28.2501" lengthAdjust="spacing" textLength="625.5386" x="651.7709" y="163.4945">+move(face : char, clockwise : boolean) : void</text>
+      <text fill="#000000" font-family="sans-serif" font-size="28.2501" lengthAdjust="spacing" textLength="272.412" x="651.7709" y="196.7656">-move_back() : void</text>
+      <text fill="#000000" font-family="sans-serif" font-size="28.2501" lengthAdjust="spacing" textLength="284.5192" x="651.7709" y="230.0368">-move_down() : void</text>
+      <text fill="#000000" font-family="sans-serif" font-size="28.2501" lengthAdjust="spacing" textLength="276.4477" x="651.7709" y="263.3079">-move_front() : void</text>
+      <text fill="#000000" font-family="sans-serif" font-size="28.2501" lengthAdjust="spacing" textLength="252.2333" x="651.7709" y="296.5791">-move_left() : void</text>
+      <text fill="#000000" font-family="sans-serif" font-size="28.2501" lengthAdjust="spacing" textLength="274.4298" x="651.7709" y="329.8502">-move_right() : void</text>
+      <text fill="#000000" font-family="sans-serif" font-size="28.2501" lengthAdjust="spacing" textLength="244.1618" x="651.7709" y="363.1214">-move_up() : void</text>
+    </g>
+    <path d="M12.1072,77.6879 L12.1072,190.5504 A0,0 0 0 0 12.1072,190.5504 L569.0384,190.5504 A0,0 0 0 0 569.0384,190.5504 L569.0384,142.1906 L647.7352,119.5468 L569.0384,126.0477 L569.0384,97.8665 L548.8597,77.6879 L12.1072,77.6879 A0,0 0 0 0 12.1072,77.6879 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0089332632685233;"/>
+    <path d="M548.8597,77.6879 L548.8597,97.8665 L569.0384,97.8665 L548.8597,77.6879 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0089332632685233;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="26.2323" lengthAdjust="spacing" textLength="359.1802" x="24.2144" y="113.1385">face in ['B', 'D', 'F', 'L', 'R', 'U']</text>
+    <text fill="#000000" font-family="sans-serif" font-size="26.2323" lengthAdjust="spacing" textLength="409.6269" x="24.2144" y="144.0331">raises ValueError for invalid face</text>
+    <text fill="#000000" font-family="sans-serif" font-size="26.2323" lengthAdjust="spacing" textLength="514.556" x="24.2144" y="174.9277">raises IndexError for invalid row/column</text>
+    <path d="M12.1072,210.7291 L12.1072,292.6971 A0,0 0 0 0 12.1072,292.6971 L449.9842,292.6971 A0,0 0 0 0 449.9842,292.6971 L449.9842,259.7846 L647.7352,152.8179 L449.9842,243.6416 L449.9842,230.9078 L429.8056,210.7291 L12.1072,210.7291 A0,0 0 0 0 12.1072,210.7291 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0089332632685233;"/>
+    <path d="M429.8056,210.7291 L429.8056,230.9078 L449.9842,230.9078 L429.8056,210.7291 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0089332632685233;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="26.2323" lengthAdjust="spacing" textLength="395.5018" x="24.2144" y="246.1797">invokes the appropriate private</text>
+    <text fill="#000000" font-family="sans-serif" font-size="26.2323" lengthAdjust="spacing" textLength="373.3053" x="24.2144" y="277.0744">method for the specified face</text>
+    <path d="M1482.123,108.9648 L1482.123,126.43 L1398.3815,119.5468 L1482.123,142.5729 L1482.123,160.0381 A0,0 0 0 0 1482.123,160.0381 L1905.8749,160.0381 A0,0 0 0 0 1905.8749,160.0381 L1905.8749,129.1435 L1885.6963,108.9648 L1482.123,108.9648 A0,0 0 0 0 1482.123,108.9648 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0089332632685233;"/>
+    <path d="M1885.6963,108.9648 L1885.6963,129.1435 L1905.8749,129.1435 L1885.6963,108.9648 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0089332632685233;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="26.2323" lengthAdjust="spacing" textLength="381.3768" x="1494.2302" y="144.4154">color in ['W', 'G', 'R', 'B', 'O', 'Y']</text>
+    <path d="M1482.123,180.2168 L1482.123,213.1293 L1277.3095,152.8179 L1482.123,229.2722 L1482.123,262.1847 A0,0 0 0 0 1482.123,262.1847 L1907.8928,262.1847 A0,0 0 0 0 1907.8928,262.1847 L1907.8928,200.3954 L1887.7141,180.2168 L1482.123,180.2168 A0,0 0 0 0 1482.123,180.2168 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0089332632685233;"/>
+    <path d="M1887.7141,180.2168 L1887.7141,200.3954 L1907.8928,200.3954 L1887.7141,180.2168 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0089332632685233;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="26.2323" lengthAdjust="spacing" textLength="383.3946" x="1494.2302" y="215.6674">a counterclockwise rotation is</text>
+    <text fill="#000000" font-family="sans-serif" font-size="26.2323" lengthAdjust="spacing" textLength="320.8408" x="1494.2302" y="246.562">three clockwise rotations</text>
+    <!--MD5=[5fbe0206380b7a38c91ef49d603d0ebe]
+@startuml
+hide footbox
+scale 1920*1080
+skinparam classAttributeIconSize 0
+
+class Cube {
+  + get_color_at(face : char, row : int, column : int) : char
+  + move(face : char, clockwise : boolean) : void
+  - move_back() : void
+  - move_down() : void
+  - move_front() : void
+  - move_left() : void
+  - move_right() : void
+  - move_up() : void
+}
+
+note left of Cube::get_color_at
+  face in ['B', 'D', 'F', 'L', 'R', 'U']
+  raises ValueError for invalid face
+  raises IndexError for invalid row/column
+end note
+
+note right of Cube::get_color_at
+  color in ['W', 'G', 'R', 'B', 'O', 'Y']
+end note
+
+note left of Cube::move
+  invokes the appropriate private
+  method for the specified face
+end note
+
+note right of Cube::move
+  a counterclockwise rotation is
+  three clockwise rotations
+end note
+
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 11:34:49 MDT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+  </g>
+</svg>

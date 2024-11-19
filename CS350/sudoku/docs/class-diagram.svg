@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="851.8498px" preserveAspectRatio="none" style="width:1922px;height:851px;background:#FFFFFF;" version="1.1" viewBox="0 0 1922 851" width="1922.6704px" zoomAndPan="magnify">
+  <defs/>
+  <g>
+    <!--MD5=[bdb67d807b54310fa85dc9d3c5aad932]
+class Puzzle-->
+    <g id="elem_Puzzle">
+      <rect codeLine="2" fill="#F1F1F1" height="480.4172" id="Puzzle" rx="6.6759" ry="6.6759" style="stroke:#181818;stroke-width:1.3351877607788596;" width="552.7677" x="672.9346" y="18.6926"/>
+      <ellipse cx="877.886" cy="61.4186" fill="#ADD1B2" rx="29.3741" ry="29.3741" style="stroke:#181818;stroke-width:2.670375521557719;"/>
+      <path d="M884.4902,77.8229 Q882.9385,78.6209 881.2317,79.0199 Q879.5249,79.4189 877.6408,79.4189 Q870.9466,79.4189 867.4222,75.0078 Q863.8978,70.5967 863.8978,62.2623 Q863.8978,53.9056 867.4222,49.4945 Q870.9466,45.0834 877.6408,45.0834 Q879.5249,45.0834 881.2539,45.4824 Q882.9829,45.8814 884.4902,46.6794 L884.4902,53.9499 Q882.8055,52.3983 881.2207,51.6779 Q879.6358,50.9575 877.9511,50.9575 Q874.3602,50.9575 872.5315,53.8059 Q870.7028,56.6542 870.7028,62.2623 Q870.7028,67.8481 872.5315,70.6965 Q874.3602,73.5449 877.9511,73.5449 Q879.6358,73.5449 881.2207,72.8245 Q882.8055,72.1041 884.4902,70.5524 Z " fill="#000000"/>
+      <text fill="#000000" font-family="sans-serif" font-size="37.3853" lengthAdjust="spacing" textLength="120.1669" x="932.6287" y="75.5476">Puzzle</text>
+      <line style="stroke:#181818;stroke-width:1.3351877607788596;" x1="675.605" x2="1223.032" y1="104.1446" y2="104.1446"/>
+      <text fill="#000000" font-family="sans-serif" font-size="37.3853" lengthAdjust="spacing" textLength="130.8484" x="688.9569" y="150.9701">-board</text>
+      <line style="stroke:#181818;stroke-width:1.3351877607788596;" x1="675.605" x2="1223.032" y1="169.5376" y2="169.5376"/>
+      <text fill="#000000" font-family="sans-serif" font-size="37.3853" lengthAdjust="spacing" textLength="520.7232" x="688.9569" y="216.363">+set_value(int, int, int) : void</text>
+      <text fill="#000000" font-family="sans-serif" font-size="37.3853" lengthAdjust="spacing" textLength="427.2601" x="688.9569" y="260.3929">+get_value(int, int) : int</text>
+      <text fill="#000000" font-family="sans-serif" font-size="37.3853" lengthAdjust="spacing" textLength="371.1822" x="688.9569" y="304.4228">+is_valid() : boolean</text>
+      <text fill="#000000" font-family="sans-serif" font-size="37.3853" lengthAdjust="spacing" textLength="403.2267" x="688.9569" y="348.4527">+is_solved() : boolean</text>
+      <text fill="#000000" font-family="sans-serif" font-size="37.3853" lengthAdjust="spacing" textLength="259.0264" x="688.9569" y="392.4826">+__str__() : str</text>
+      <text fill="#000000" font-family="sans-serif" font-size="37.3853" lengthAdjust="spacing" textLength="10.6815" x="688.9569" y="436.5125"> </text>
+      <text fill="#000000" font-family="sans-serif" font-size="37.3853" lengthAdjust="spacing" text-decoration="underline" textLength="336.4673" x="688.9569" y="480.5424">+load(str) : Puzzle</text>
+    </g>
+    <path d="M16.0223,190.9318 L16.0223,299.4054 A0,0 0 0 0 16.0223,299.4054 L579.4715,299.4054 A0,0 0 0 0 579.4715,299.4054 L579.4715,255.8501 L683.6161,466.4134 L579.4715,234.4871 L579.4715,217.6356 L552.7677,190.9318 L16.0223,190.9318 A0,0 0 0 0 16.0223,190.9318 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.3351877607788596;"/>
+    <path d="M552.7677,190.9318 L552.7677,217.6356 L579.4715,217.6356 L552.7677,190.9318 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.3351877607788596;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="34.7149" lengthAdjust="spacing" textLength="488.6787" x="32.0445" y="237.846">Create a Puzzle object from a</text>
+    <text fill="#000000" font-family="sans-serif" font-size="34.7149" lengthAdjust="spacing" textLength="507.3713" x="32.0445" y="278.7309">textual representation in a file</text>
+    <!--MD5=[7e0cc054e68485d8dbab588155cf841a]
+class Solver-->
+    <g id="elem_Solver">
+      <rect codeLine="18" fill="#F1F1F1" height="172.2079" id="Solver" rx="6.6759" ry="6.6759" style="stroke:#181818;stroke-width:1.3351877607788596;" width="483.338" x="1420.6398" y="173.5744"/>
+      <ellipse cx="1594.8818" cy="216.3004" fill="#A9DCDF" rx="29.3741" ry="29.3741" style="stroke:#181818;stroke-width:2.670375521557719;"/>
+      <path d="M1594.5167,203.8782 L1591.4356,217.4218 L1597.62,217.4218 Z M1590.5268,197.8933 L1598.5288,197.8933 L1607.4618,230.9875 L1600.9227,230.9875 L1598.8834,222.8082 L1590.1278,222.8082 L1588.1328,230.9875 L1581.5938,230.9875 Z " fill="#000000"/>
+      <text fill="#000000" font-family="sans-serif" font-size="37.3853" font-style="italic" lengthAdjust="spacing" textLength="112.1558" x="1649.6245" y="230.4294">Solver</text>
+      <line style="stroke:#181818;stroke-width:1.3351877607788596;" x1="1423.3102" x2="1901.3074" y1="259.0264" y2="259.0264"/>
+      <line style="stroke:#181818;stroke-width:1.3351877607788596;" x1="1423.3102" x2="1901.3074" y1="280.3894" y2="280.3894"/>
+      <text fill="#000000" font-family="sans-serif" font-size="37.3853" font-style="italic" lengthAdjust="spacing" textLength="451.2935" x="1436.662" y="327.2149">+solve(Puzzle) : boolean</text>
+    </g>
+    <!--MD5=[95955413cffb711b7b9a5e9ba0fa52f3]
+class Backtracking-->
+    <g id="elem_Backtracking">
+      <rect codeLine="23" fill="#F1F1F1" height="172.2079" id="Backtracking" rx="6.6759" ry="6.6759" style="stroke:#181818;stroke-width:1.3351877607788596;" width="483.338" x="1420.6398" y="662.2531"/>
+      <ellipse cx="1535.1989" cy="704.9791" fill="#ADD1B2" rx="29.3741" ry="29.3741" style="stroke:#181818;stroke-width:2.670375521557719;"/>
+      <path d="M1541.8031,721.3834 Q1540.2515,722.1814 1538.5447,722.5804 Q1536.8379,722.9794 1534.9538,722.9794 Q1528.2596,722.9794 1524.7351,718.5683 Q1521.2107,714.1572 1521.2107,705.8228 Q1521.2107,697.4661 1524.7351,693.055 Q1528.2596,688.6439 1534.9538,688.6439 Q1536.8379,688.6439 1538.5668,689.0429 Q1540.2958,689.4419 1541.8031,690.2399 L1541.8031,697.5104 Q1540.1185,695.9588 1538.5336,695.2384 Q1536.9487,694.518 1535.2641,694.518 Q1531.6732,694.518 1529.8444,697.3664 Q1528.0157,700.2147 1528.0157,705.8228 Q1528.0157,711.4086 1529.8444,714.257 Q1531.6732,717.1054 1535.2641,717.1054 Q1536.9487,717.1054 1538.5336,716.385 Q1540.1185,715.6646 1541.8031,714.1129 Z " fill="#000000"/>
+      <text fill="#000000" font-family="sans-serif" font-size="37.3853" lengthAdjust="spacing" textLength="232.3227" x="1589.1405" y="719.1081">Backtracking</text>
+      <line style="stroke:#181818;stroke-width:1.3351877607788596;" x1="1423.3102" x2="1901.3074" y1="747.7051" y2="747.7051"/>
+      <line style="stroke:#181818;stroke-width:1.3351877607788596;" x1="1423.3102" x2="1901.3074" y1="769.0682" y2="769.0682"/>
+      <text fill="#000000" font-family="sans-serif" font-size="37.3853" lengthAdjust="spacing" textLength="451.2935" x="1436.662" y="815.8936">+solve(Puzzle) : boolean</text>
+    </g>
+    <!--MD5=[90aac8ba3db56bd79a36e92e9ea0bd89]
+reverse link Puzzle to Solver-->
+    <g id="link_Puzzle_Solver">
+      <path codeLine="21" d="M1239.5883,259.0264 C1299.6985,259.0264 1362.4256,259.0264 1420.5864,259.0264 " fill="none" id="Puzzle-backto-Solver" style="stroke:#181818;stroke-width:2.670375521557719;stroke-dasharray:7.0,7.0;"/>
+      <polygon fill="#181818" points="1225.9961,259.0264,1250.0295,269.7079,1239.348,259.0264,1250.0295,248.3449,1225.9961,259.0264" style="stroke:#181818;stroke-width:2.670375521557719;"/>
+      <text fill="#000000" font-family="sans-serif" font-size="34.7149" lengthAdjust="spacing" textLength="96.1335" x="1275.1043" y="241.8515">«use»</text>
+    </g>
+    <!--MD5=[1b8c22127818e6e26835df6267358c28]
+reverse link Solver to Backtracking-->
+    <g id="link_Solver_Backtracking">
+      <path d="M1662.3088,398.2331 C1662.3088,483.2312 1662.3088,589.8058 1662.3088,662.2264 " fill="none" id="Solver-backto-Backtracking" style="stroke:#181818;stroke-width:2.670375521557719;"/>
+      <polygon fill="none" points="1643.6161,398.2064,1662.3088,344.7989,1681.0014,398.1797,1643.6161,398.2064" style="stroke:#181818;stroke-width:2.670375521557719;"/>
+    </g>
+    <!--MD5=[0abb4af44296f64ee5c129680935c510]
+@startuml
+hide footbox
+scale 1920*1080
+skinparam classAttributeIconSize 0
+
+class Puzzle {
+  - board
+
+  + set_value(int, int, int) : void
+  + get_value(int, int) : int
+  + is_valid() : boolean
+  + is_solved() : boolean
+  + __str__() : str
+
+  + {static} load(str) : Puzzle
+}
+note left of Puzzle::load(str)
+  Create a Puzzle object from a
+  textual representation in a file
+end note
+
+abstract class Solver {
+  + {abstract} solve(Puzzle) : boolean
+}
+Solver .left.> Puzzle : <<use>>
+
+class Backtracking extends Solver {
+  + solve(Puzzle) : boolean
+}
+
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 11:34:49 MDT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+  </g>
+</svg>
