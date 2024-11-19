@@ -30,7 +30,7 @@ The system's HTML provides the main structure of the application. Key elements i
 - **Table for Records**: Displays member data dynamically in a user-friendly layout.
 - **Form for Adding Members**: Inputs for collecting user details such as name, email, and instrument.
 
-###Backend and Database
+### Backend and Database
 While the front end showcases static records for demonstration, PHP scripts will handle dynamic interactions:
 
 - **Login Authentication: Verify user credentials against stored data.
